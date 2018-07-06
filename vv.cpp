@@ -47,7 +47,7 @@ vector::vector(int n,int x) //initializare cu un nr x
 vector::~vector() //destructor
 
 {
-    delete []v;
+    delete [] v;
 }
 vector :: vector(vector &p) //constructor de copiere
 {
